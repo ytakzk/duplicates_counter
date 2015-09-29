@@ -1,0 +1,48 @@
+body {
+  font-family: 'Noticia Text', serif;
+  padding: 10px; }
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: bold; }
+
+input[type="submit"] {
+  cursor: pointer;
+  border-style: none;
+  color: white;
+  background: black;
+  padding: 6px 8px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  transition: all 200ms; }
+  input[type="submit"]:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    transform: translateY(-1px);
+    background: #333; }
+
+textarea {
+  resize: vertical; }
+
+.form-keywords {
+  padding-bottom: 10px; }
+
+textarea, input[type=text] {
+  width: 350px; }
+
+.input {
+  width: 400px;
+  display: inline-block; }
+
+.input h1 {
+  padding-bottom: 10px; }
+
+.output {
+  display: inline-block;
+  vertical-align: top; }
+
+.output-keywords {
+  font-size: 0.7rem; }
