@@ -36,11 +36,12 @@ input[type="submit"] {
 textarea {
   resize: vertical; }
 
-.form-keywords {
+.form-keywords, .form-description {
   padding-bottom: 10px; }
 
 textarea, input[type=text] {
-  width: 380px; }
+  width: 380px;
+  font-size: 0.7rem; }
 
 .input {
   width: 380px; }
@@ -54,6 +55,19 @@ textarea, input[type=text] {
   box-flex: 1;
   padding-left: 20px; }
 
+.output h1 {
+  text-align: center; }
+
 .output-keywords, .output-description {
   font-size: 0.7rem;
   padding-bottom: 20px; }
+
+.output-texts {
+  padding-left: 15px; }
+
+.chart-legend {
+  list-style: none;
+  position: relative; }
+
+.error {
+  color: #f7464a; }
