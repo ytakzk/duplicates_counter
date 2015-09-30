@@ -1,12 +1,21 @@
 body {
   font-family: 'Noticia Text', serif;
-  padding: 10px; }
+  padding: 10px;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  box-orient: horizontal;
+  font-size: 14px; }
 
 h1 {
   font-size: 1.2rem;
   font-weight: bold; }
 
 input[type="submit"] {
+  text-align: center;
+  display: block;
+  width: 200px;
+  margin: 5px auto 0;
   cursor: pointer;
   border-style: none;
   color: white;
@@ -31,18 +40,20 @@ textarea {
   padding-bottom: 10px; }
 
 textarea, input[type=text] {
-  width: 350px; }
+  width: 380px; }
 
 .input {
-  width: 400px;
-  display: inline-block; }
+  width: 380px; }
 
 .input h1 {
-  padding-bottom: 10px; }
+  padding-bottom: 15px;
+  text-align: center; }
 
 .output {
-  display: inline-block;
-  vertical-align: top; }
+  vertical-align: top;
+  box-flex: 1;
+  padding-left: 20px; }
 
-.output-keywords {
-  font-size: 0.7rem; }
+.output-keywords, .output-description {
+  font-size: 0.7rem;
+  padding-bottom: 20px; }
